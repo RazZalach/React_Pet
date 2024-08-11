@@ -46,6 +46,7 @@ export default function Register() {
 
   return (
 <Container className="register-container">
+Helo
       <h2 className="my-4 text-center">Register</h2>
       {error && <Alert variant='danger'>{error}</Alert>}
       {success && <Alert variant='success'>{success}</Alert>}
